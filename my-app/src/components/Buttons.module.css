@@ -1,0 +1,40 @@
+
+.inc{
+    cursor: pointer;
+    height: 25%;
+    width: 35%;
+    background-color: darkgreen;
+    font-size: 25px;
+    font-weight: 600;
+    outline: none;
+}
+
+.reset{
+    cursor: pointer;
+    height: 25%;
+    width: 35%;
+    background-color: darkred;
+    font-size: 25px;
+    font-weight: 600;
+    outline: none;
+}
+
+.set{
+    cursor: pointer;
+    height: 25%;
+    width: 35%;
+    background-color: darkblue;
+    font-size: 25px;
+    font-weight: 600;
+    outline: none;
+}
+
+.clear{
+    cursor: pointer;
+    height: 25%;
+    width: 35%;
+    background-color: darkred;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+}

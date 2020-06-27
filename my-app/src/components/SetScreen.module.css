@@ -1,0 +1,47 @@
+
+.screen {
+    margin: 10px auto;
+    width: 370px;
+    height: 200px;
+    background-color: #9f8fc2;
+    /*display: flex;*/
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.extra_container {
+    /*height: 100%;*/
+    /*width: 100%;*/
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+
+.min_input {
+    width: 150px;
+    height: 30px;
+}
+
+.min_input:before {
+    content: 'min';
+}
+
+.max_input {
+    width: 150px;
+    height: 30px;
+}
+
+p {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
