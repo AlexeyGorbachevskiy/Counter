@@ -61,14 +61,15 @@ function App() {
                            setClearBtn={setClearBtn}
                 />
                 <div className='buttons'>
-                    <Buttons btnName='clear'
-                             clearBtn={clearBtn}
-                             onClearBtnClickHandler={onClearBtnClickHandler}
+
+                    <Buttons onClick={onClearBtnClickHandler}
+                             flag={clearBtn}
+                             class={obj.clear}
                     >
                         Clear LS</Buttons>
-                    <Buttons btnName='set'
-                             setBtnFlag={setBtnFlag}
-                             onSetBtnClickHandler={onSetBtnClickHandler}
+                    <Buttons flag={setBtnFlag}
+                             onClick={onSetBtnClickHandler}
+                             class={obj.set}
                     >
                         Set</Buttons>
                 </div>
@@ -79,13 +80,13 @@ function App() {
                     screenMessage={screenMessage}
                     value={value}/>
                 <div className='buttons'>
-                    <Buttons btnName='inc'
-                             incBtnFlag={incBtnFlag}
-                             onIncBtnClickHandler={onIncBtnClickHandler}
+                    <Buttons flag={incBtnFlag}
+                             onClick={onIncBtnClickHandler}
+                             class={obj.inc}
                     >Inc</Buttons>
-                    <Buttons btnName='res'
-                             resBtnFlag={resBtnFlag}
-                             onResBtnClickHandler={onResBtnClickHandler}
+                    <Buttons flag={resBtnFlag}
+                             onClick={onResBtnClickHandler}
+                             class={obj.reset}
                     >Reset</Buttons>
                 </div>
             </div>
